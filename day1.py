@@ -1,3 +1,6 @@
+def solve(inp):
+    print(sorted([sum(map(int,i.split("\n")))for i in inp.split("\n\n")])[-5:])
+
 inp = """2936
 2154
 1578
@@ -2240,5 +2243,4 @@ inp = """2936
 10094
 1445
 9978"""
-
-print(sorted([sum(map(int,i.split("\n")))for i in inp.split("\n\n")])[-5:])
+solve(inp)
