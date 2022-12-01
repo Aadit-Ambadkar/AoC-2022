@@ -1,4 +1,5 @@
 def solve(inp):
+    # the below is the golf
     print(sorted([sum(map(int,i.split("\n")))for i in inp.split("\n\n")])[-5:])
 
 inp = """2936
