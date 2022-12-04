@@ -1,13 +1,18 @@
 import sys
 
 def solve1(inp):
-    return sorted([sum(map(int,i.split("\n")))for i in inp.split("\n\n")])[-1:][0]
+    ans = 0
+    for i in inp.split():
+        pass
+    return ans
 
 def solve2(inp):
-    return sum(sorted([sum(map(int,i.split("\n")))for i in inp.split("\n\n")])[-3:])
+    ans = 0
+    for i in inp.split():
+        pass
+    return ans
 
-
-f = open("day1.in", "r")
+f = open("day<REP>.in", "r")
 inp = f.read()
 if len(sys.argv) < 2:
     print(solve1(inp))
